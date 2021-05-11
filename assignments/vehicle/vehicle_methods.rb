@@ -13,6 +13,13 @@ def use_headlights(brightness)
   puts "Watch out for deer!"
 end
 
+def mileage(miles_driven, gas_used)
+  if(gas_used == 0)
+    return 0.0
+  end
+  miles_driven / gas_used
+end
+
 sound_horn
 accelerate
-use_headlights("High beam")
+use_headlights("high beam")
