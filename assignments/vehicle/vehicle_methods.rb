@@ -22,4 +22,4 @@ end
 
 sound_horn
 accelerate
-use_headlights("high beam")
+use_headlights
